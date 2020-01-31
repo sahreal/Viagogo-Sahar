@@ -1,0 +1,37 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "dev": "webpack -d --watch & nodemon index.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "babel": "^6.23.0",
+    "express": "^4.17.1",
+    "material-ui": "^0.20.2",
+    "node": "^13.6.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-linkify": "^1.0.0-alpha"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "@babel/preset-react": "^7.7.0",
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "eslint": "^6.6.0"
+  }
+}

@@ -1,0 +1,90 @@
+body {
+  background-color: blanchedalmond;
+}
+
+/* App.JSX */
+.appName {
+  background-color: royalblue;
+  justify-content: center;
+  display: flex;
+  margin: 20px 400px;
+}
+
+/* Filter.JSX */
+.Filter {
+  justify-content: center;
+  display: flex;
+}
+.LocationSelect {
+  width: 20%;
+  background-color: whitesmoke;
+}
+
+/* EventEntry.JSX */
+.cell {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(195, 227, 252, 1) 29%,
+    rgba(25, 59, 222, 1) 100%
+  );
+  flex-direction: column;
+  border-style: outset;
+  border-color: darkcyan;
+  margin: 20px;
+}
+
+.EventName {
+  display: flex;
+  flex-flow: column;
+  margin: inherit;
+}
+
+.EventName p {
+  margin: 5px;
+  align-self: center;
+  justify-content: center;
+  color: red;
+}
+
+.MainEvent {
+  align-self: center;
+  font-size: xx-large;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.locationDetails {
+  display: flex;
+  font-size: larger;
+  align-self: center;
+  padding: 15px;
+  border-style: double;
+  border-collapse: collapse;
+}
+
+.locationDetails span {
+  margin: 0px 20px;
+}
+.ticketInfo {
+  background: azure;
+  align-self: end;
+  display: inline-block;
+  margin: 5px 5px;
+  border-style: outset;
+  border-color: cornflowerblue;
+}
+
+.ticketInfo span {
+  margin: 0px 60px 0px 0px;
+}
+
+.EventUrl {
+  align-self: right;
+}
+
+.VenueDescription {
+  justify-content: center;
+  display: flex;
+  font-size: large;
+}

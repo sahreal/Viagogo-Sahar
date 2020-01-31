@@ -1,0 +1,26 @@
+
+----- PART 3 ANSWERS----
+
+Imagine that based on the information we collected about how users interact with our page, 
+we found that the filter was not well received by our users. We still believe that having 
+a filter is a great feature for them, so:
+
+
+
+1) Tell us about the possible reasons that the filter your implemented in part 2 
+ did not help the customer experience?
+
+ Reponse: Well I'm worried that with more data, my current implementation will run a bit slow, as I have to 
+ map, then filter the cities once selected, which might make the user have to wait. Anything more than 3 seconds,
+ and they'll most likely leave. 
+
+
+
+
+2)What could you change to improve the filter experience, and why do you think it would be better 
+for the customer?
+
+ Reponse: I do agree that the filter is a feature worth having, I would just need to figure out a better way of 
+ managing the data flow a bit better. It could be optimizing queries from the database, or API. 
+ Depending on the overall size of the data, I might suggest implenting Redux to allow for faster and easier state management
+ as well.
